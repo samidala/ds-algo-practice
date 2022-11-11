@@ -1,2 +1,2 @@
 # ds-algo-practice
-Leet code problems and implementations
+Leet code problems and solutions
