@@ -1,2 +1,2 @@
 # ds-algo-practice
-Adding solutions to programming questions.
+Leet code problems and implementations
