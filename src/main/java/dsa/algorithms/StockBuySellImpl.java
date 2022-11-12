@@ -2,9 +2,8 @@ package dsa.algorithms;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
-class StockBuySellProblem{
+public class StockBuySellImpl {
     public static void main(String args[]){
         int prices[] = {100, 180, 260, 310, 40, 535, 695};
         int maxProfit = maxProfit(prices);

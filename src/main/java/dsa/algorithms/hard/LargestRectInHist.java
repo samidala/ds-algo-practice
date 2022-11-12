@@ -19,7 +19,7 @@ public class LargestRectInHist {
             return heights[0];
         }
 
-        Stack<Integer> st = new Stack();
+        Stack<Integer> st = new Stack<>();
         st.push(0);
         int len = heights.length;
         int maxArea = 0;
