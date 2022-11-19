@@ -18,7 +18,7 @@ public class MergeSortedLists {
             return list1;
         }
 
-        if(list1 == null && list2 != null){
+        if(list1 == null){
             return list2;
         }
 
