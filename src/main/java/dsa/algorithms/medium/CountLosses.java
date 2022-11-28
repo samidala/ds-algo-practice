@@ -17,7 +17,7 @@ public class CountLosses {
             losses.put(m[1], losses.getOrDefault(m[1], 0) + 1);
         }
         System.out.println(losses);
-        List<List<Integer>> r = new ArrayList<>();//Arrays.asList(new ArrayList<>(), new ArrayList<>());
+        List<List<Integer>> r =Arrays.asList(new ArrayList<>(), new ArrayList<>());
         for(Integer player : losses.keySet())
             if(losses.get(player) <= 1)
                 r.get(losses.get(player)).add(player);
