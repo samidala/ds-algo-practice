@@ -24,6 +24,15 @@ public class MinSteps {
 
         steps = countMinSteps("sdd");
         System.out.println(steps);
+
+        steps = countMinSteps("add");
+        System.out.println(steps);
+
+        steps = countMinSteps("adda");
+        System.out.println(steps);
+
+        steps = countMinSteps("dddddsdddaddvdd");
+        System.out.println(steps);
     }
 
     static int countMinSteps(String str){
